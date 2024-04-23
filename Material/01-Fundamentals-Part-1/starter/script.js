@@ -51,7 +51,7 @@ birthYear = 1990
 
 //operators
 
-const now = 2024
+/*const now = 2024
 const ageSebas = now - 1997;
 const agerAly = now - 1996;
 console.log(ageSebas, agerAly);
@@ -80,6 +80,50 @@ console.log(ageSebas < agerAly);
 
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Operator_precedence
 
+const job = 'coder';
+const birthYear = 1991;
+const year = 2037
 
+const jonasNew = `I'm ${firstName}, a ${year - birthYear} year old ${job}!`;
+console.log(jonasNew);
 
+const age = 26;
+const isOldEnough = age >= 18;
+
+if(isOldEnough){
+    console.log('Sebastian casi llega a los 30')
+}*/
+
+/*const birthYear = 1997;
+let century;
+
+if(birthYear <= 2000){
+    century = 20;
+} else {
+    century = 21;
+}
+console.log(century);
+*/
+
+/*
+console.log(Boolean(0));
+console.log(Boolean(''));
+console.log(Boolean(undefined));
+console.log(Boolean({}));
+console.log(Boolean('jonas'));
+
+const money = 0;
+if(money){
+    console.log('do not spend it all');
+} else {
+    console.log('go get a job');
+}
+*/
+
+const age = 18;
+if( age === 18) console.log("segunda division");
+// === strict equal operator no hace type coercion  -> mejor usar este
+// ==  hace type coercion
+
+const numFavorite = Number(prompt('favorite number'));
 
